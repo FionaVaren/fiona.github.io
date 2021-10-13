@@ -13,3 +13,7 @@ parentContainer.addEventListener("click", (event) => {
 
   current.textContent = current.textContent.includes("Read More") ? "Read Less" : "Read More";
 });
+AOS.init();
+gsap.from(".navbar", { duration: 1, y: -100, opacity: 0, ease: "bounce" });
+gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+gsap.to(".jumbotron .textP", { duration: 2, text: "fiona.tendio@binus.ac.id | 082271509675", ease: "none" });
