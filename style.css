@@ -2,7 +2,8 @@
   padding-top: 6rem;
   background-color: rgb(197, 240, 128);
 }
-#projects {
+#projects,
+#contact {
   background-color: rgb(197, 240, 128);
 }
 section {
@@ -16,4 +17,7 @@ section {
 }
 .more--show {
   display: inline;
+}
+#contact a {
+  color: green;
 }
